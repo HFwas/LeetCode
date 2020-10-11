@@ -8,8 +8,7 @@ public class Main {
         Scanner cin = new Scanner(System.in);
         int N, M;
         // 读取输入，直到没有整型数据可读
-        while(cin.hasNextInt())
-        {
+        while(cin.hasNextInt()){  
           // 读取N 和 M
           N = cin.nextInt();
           M = cin.nextInt();

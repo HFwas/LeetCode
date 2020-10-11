@@ -30,6 +30,9 @@ public class _集合并集 {
     		for(int i = 0; i < array.length; i++){
     			System.out.print(array[i]+" ");
     		}
+//    		for (int i = array.length - 1; i > array.length - 3; i--) {
+//				System.out.print( array[i]+" ");
+//			}
     	}
     	
     	
