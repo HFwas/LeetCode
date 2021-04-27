@@ -9,7 +9,7 @@ package _1_两数之和;
 public class Solution {//时间复杂度为O(n2)
 	public int[] twoSum(int[] nums, int target) {
 		// int[] sum = new int[2];
-		// 第一个for循环，
+		// 第一个for循环
 		for (int i = 0; i < nums.length - 1; i++) {
 			for (int j = i + 1; j < nums.length; j++) {
 				/*if (nums[i] + nums[j] == target) {

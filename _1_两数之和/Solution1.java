@@ -15,7 +15,6 @@ public class Solution1 {//时间复杂度为O(n)
 		for (int i = 0; i < nums.length; i++) {
 			map.put(nums[i], i);
 		}
-		
 		for (int i = 0; i < nums.length; i++) {
 			// 得到另一个数字，再去集合中去找，如果存在，取出值存入数组中
 			// 如果没有，则下一个
