@@ -17,9 +17,6 @@ public class Solution {
             res   = Math.max(res, i - start + 1);
             last[index] = i;
         }
-        return res;
-
-
-
+        return res
 	}
 }
