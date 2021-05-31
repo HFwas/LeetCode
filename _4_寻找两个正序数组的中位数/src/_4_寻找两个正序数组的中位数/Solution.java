@@ -1,6 +1,9 @@
 package _4_寻找两个正序数组的中位数;
 
 public class Solution {
+    public static void main(String[] args) {
+
+    }
 	public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int m = nums1.length;
         int n = nums2.length;

@@ -1,5 +1,14 @@
-package _3_无重复字符的最长子串;
-
+/**
+ * 示例 1:
+ * 输入: s = "abcabcbb"
+ * 输出: 3
+ * 解释: 因为无重复字符的最长子串是 "abc"，所以其长度为 3。
+ * 示例 2:
+ *
+ * 输入: s = "bbbbb"
+ * 输出: 1
+ * 解释: 因为无重复字符的最长子串是 "b"，所以其长度为 1。
+ */
 public class Solution {
 	public int lengthOfLongestSubstring(String s) {
 		// 记录字符上一次出现的位置
@@ -17,6 +26,8 @@ public class Solution {
             res   = Math.max(res, i - start + 1);
             last[index] = i;
         }
-        return res
+        return res;
 	}
+
+
 }
